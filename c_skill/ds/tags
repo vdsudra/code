@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+create	tree.c	/^int create()$/;"	f
+data	lkls.c	/^    int data;$/;"	m	struct:node	file:
+delete	tree.c	/^int delete()$/;"	f
+delete1	tree.c	/^int delete1(struct node *t)$/;"	f
+deletebeg	lkls.c	/^int deletebeg()$/;"	f
+deletee	lkls.c	/^int deletee()$/;"	f
+deleteend	lkls.c	/^int deleteend()$/;"	f
+delpar	lkls.c	/^int delpar(int n)$/;"	f
+display	lkls.c	/^int display()$/;"	f
+flag	tree.c	/^int flag = 1;$/;"	v
+head	lkls.c	/^struct node* head;$/;"	v	typeref:struct:node
+i	lkls.c	/^int i,n,x,op;$/;"	v
+inorder	tree.c	/^int inorder(struct node *t)$/;"	f
+insert	tree.c	/^int insert()$/;"	f
+insertbeg	lkls.c	/^int insertbeg(int x)$/;"	f
+insertend	lkls.c	/^int insertend(int x)$/;"	f
+insertpart	lkls.c	/^int insertpart(int x)$/;"	f
+largest	tree.c	/^int largest(struct node *t)$/;"	f
+left	tree.c	/^    struct node *left;$/;"	m	struct:node	typeref:struct:node::node	file:
+main	lkls.c	/^int main()$/;"	f
+n	lkls.c	/^int i,n,x,op;$/;"	v
+next	lkls.c	/^      struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	lkls.c	/^struct node$/;"	s	file:
+node	tree.c	/^struct node$/;"	s	file:
+op	lkls.c	/^int i,n,x,op;$/;"	v
+postorder	tree.c	/^int postorder(struct node *t)$/;"	f
+preorder	tree.c	/^int preorder(struct node *t)$/;"	f
+rev	lkls.c	/^int rev()$/;"	f
+rigth	tree.c	/^    struct node *rigth;$/;"	m	struct:node	typeref:struct:node::node	file:
+root	tree.c	/^}*root = NULL, *temp = NULL, *t2, *t1;$/;"	v	typeref:struct:node
+search	lkls.c	/^int search(int x)$/;"	f
+search	tree.c	/^int search(struct node *t)$/;"	f
+search1	tree.c	/^int search1(struct node *t, int data)$/;"	f
+smallest	tree.c	/^int smallest(struct node *t)$/;"	f
+t1	tree.c	/^}*root = NULL, *temp = NULL, *t2, *t1;$/;"	v	typeref:struct:node
+t2	tree.c	/^}*root = NULL, *temp = NULL, *t2, *t1;$/;"	v	typeref:struct:node
+tail	lkls.c	/^struct node* tail;$/;"	v	typeref:struct:node
+temp	lkls.c	/^struct node* temp;$/;"	v	typeref:struct:node
+temp	tree.c	/^}*root = NULL, *temp = NULL, *t2, *t1;$/;"	v	typeref:struct:node
+tree	tree.c	/^int tree()$/;"	f
+value	tree.c	/^    int value;$/;"	m	struct:node	file:
+x	lkls.c	/^int i,n,x,op;$/;"	v

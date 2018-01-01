@@ -1,0 +1,51 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       19     0.00     0.00  CheckDigit
+  0.00      0.00     0.00       19     0.00     0.00  Separate_Digit
+  0.00      0.00     0.00       19     0.00     0.00  Spell_Out
+  0.00      0.00     0.00       10     0.00     0.00  showten1
+  0.00      0.00     0.00        6     0.00     0.00  showten
+  0.00      0.00     0.00        3     0.00     0.00  Show_One
+  0.00      0.00     0.00        1     0.00     0.00  SortData
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00      19/19          main [14]
+[1]      0.0    0.00    0.00      19         CheckDigit [1]
+-----------------------------------------------
+                0.00    0.00      19/19          main [14]
+[2]      0.0    0.00    0.00      19         Separate_Digit [2]
+-----------------------------------------------
+                0.00    0.00      19/19          main [14]
+[3]      0.0    0.00    0.00      19         Spell_Out [3]
+                0.00    0.00      10/10          showten1 [4]
+                0.00    0.00       6/6           showten [5]
+                0.00    0.00       3/3           Show_One [6]
+-----------------------------------------------
+                0.00    0.00      10/10          Spell_Out [3]
+[4]      0.0    0.00    0.00      10         showten1 [4]
+-----------------------------------------------
+                0.00    0.00       6/6           Spell_Out [3]
+[5]      0.0    0.00    0.00       6         showten [5]
+-----------------------------------------------
+                0.00    0.00       3/3           Spell_Out [3]
+[6]      0.0    0.00    0.00       3         Show_One [6]
+-----------------------------------------------
+                0.00    0.00       1/1           main [14]
+[7]      0.0    0.00    0.00       1         SortData [7]
+-----------------------------------------------
+
+Index by function name
+
+   [1] CheckDigit              [7] SortData                [4] showten1
+   [2] Separate_Digit          [3] Spell_Out
+   [6] Show_One                [5] showten

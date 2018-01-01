@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+TEXT_SZ	shm_com.h	1;"	d
+del_semvalue	sem1.c	/^static void del_semvalue(void)$/;"	f	file:
+main	Untitled Folder/reader.c	/^int main()$/;"	f
+main	Untitled Folder/writer1.c	/^int main()$/;"	f
+main	Untitled Folder/writer2.c	/^int main()$/;"	f
+main	random_no.c	/^int main()$/;"	f
+main	reader.c	/^int main()$/;"	f
+main	sem1.c	/^int main(int argc,char *argv[])$/;"	f
+main	time/reader.c	/^int main()$/;"	f
+main	time/writer.c	/^int main()$/;"	f
+main	writer1.c	/^int main()$/;"	f
+main	writer2.c	/^int main()$/;"	f
+running	shm_com.h	/^int running = 1;$/;"	v
+sem_id	sem1.c	/^static int sem_id;$/;"	v	file:
+semaphore_p	sem1.c	/^static int semaphore_p(void)$/;"	f	file:
+semaphore_v	sem1.c	/^static int semaphore_v(void)$/;"	f	file:
+set_semvalue	sem1.c	/^static int set_semvalue(void)$/;"	f	file:
+shared_use_st	shm_com.h	/^struct shared_use_st $/;"	s
+some_text	shm_com.h	/^char some_text[TEXT_SZ];$/;"	m	struct:shared_use_st
+written_by_you	shm_com.h	/^int written_by_you;$/;"	m	struct:shared_use_st

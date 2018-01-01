@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CheckDigit	other.c	/^int CheckDigit(char num[10])$/;"	f
+CheckDigit	spell_out.c	/^int CheckDigit(char num[10])$/;"	f
+MAX_DATA	other.c	4;"	d	file:
+Separate_Digit	other.c	/^void Separate_Digit(unsigned int dig,char *ip)$/;"	f
+Separate_Digit	spell_out.c	/^void Separate_Digit(unsigned int dig,char *ip)$/;"	f
+Show_Hundred	other.c	/^void Show_Hundred(char ele1[1][10],char ele2[1][10],char dig0,char dig1)$/;"	f
+Show_Hundred	spell_out.c	/^void Show_Hundred(char ele1[1][10],char ele2[1][10],char dig0,char dig1)$/;"	f
+Show_One	other.c	/^void Show_One(char ele[1][10],int dig )$/;"	f
+Show_One	spell_out.c	/^void Show_One(char ele[1][10],int dig )$/;"	f
+SortData	other.c	/^void SortData(int i, int *f_data, char sort_data[100][7])$/;"	f
+SortData	spell_out.c	/^void SortData(int i, int *f_data)$/;"	f
+Spell_Out	other.c	/^void Spell_Out(char data[4][10][10],char ip[10],int len)$/;"	f
+Spell_Out	spell_out.c	/^void Spell_Out(char data[4][10][10],char ip[10],int len)$/;"	f
+main	other.c	/^int main()$/;"	f
+main	sample.c	/^int main()$/;"	f
+main	spell_out.c	/^int main()$/;"	f
+myfun	sample.c	/^void myfun(char data)$/;"	f
+showten	other.c	/^void showten(char ele[1][10],char dig)$/;"	f
+showten	spell_out.c	/^void showten(char ele[1][10],char dig)$/;"	f
+showten1	other.c	/^void showten1(char ele1[1][10],char ele2[1][10],char dig0,char dig1)$/;"	f
+showten1	spell_out.c	/^void showten1(char ele1[1][10],char ele2[1][10],char dig0,char dig1)$/;"	f

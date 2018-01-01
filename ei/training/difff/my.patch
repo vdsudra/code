@@ -1,0 +1,9 @@
+--- p1.c	2017-11-09 15:05:00.443580745 +0530
++++ p2.c	2017-11-09 15:05:46.524250041 +0530
+@@ -1,5 +1,5 @@
+ #include<stdio.h>
+ int main(){
+-printf("This is simple Hello world program!\n");
++printf("This is simple Hello world program made by me!\n");
+ return 1;
+ }
