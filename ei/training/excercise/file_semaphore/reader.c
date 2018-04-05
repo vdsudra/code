@@ -40,11 +40,11 @@ while(strncmp("end",buffer,3)!=0)
 	sleep(1);
 	}
 
-sem_close(my_sem);
-sem_unlink("semaphore");
-//munmap(ptr_rd,100);
-close(fd_rd);
-sem_destroy(my_sem);
-exit(EXIT_SUCCESS);
+	sem_close(my_sem);
+	sem_unlink("semaphore");
+	//munmap(ptr_rd,100);
+	close(fd_rd);
+	sem_destroy(my_sem);
+	exit(EXIT_SUCCESS);
 
 }
