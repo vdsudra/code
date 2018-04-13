@@ -1,0 +1,1 @@
+cmd_/home/vinay/tran/driver/interrupt1/interrupt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vinay/tran/driver/interrupt1/interrupt.ko /home/vinay/tran/driver/interrupt1/interrupt.o /home/vinay/tran/driver/interrupt1/interrupt.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/vinay/tran/driver/class/class.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vinay/tran/driver/class/class.ko /home/vinay/tran/driver/class/class.o /home/vinay/tran/driver/class/class.mod.o ;  true

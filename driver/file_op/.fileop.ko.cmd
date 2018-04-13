@@ -1,0 +1,1 @@
+cmd_/home/vinay/tran/driver/file_op/fileop.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vinay/tran/driver/file_op/fileop.ko /home/vinay/tran/driver/file_op/fileop.o /home/vinay/tran/driver/file_op/fileop.mod.o ;  true
